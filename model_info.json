@@ -1,0 +1,24 @@
+{
+  "best_model": "XGBoost",
+  "metrics": {
+    "accuracy": 0.9999223300970874,
+    "precision": 0.9998360655737705,
+    "recall": 1.0,
+    "f1": 0.9999180260677105,
+    "roc_auc": 1.0
+  },
+  "features_numeric": [
+    "Age",
+    "Tenure",
+    "Usage Frequency",
+    "Support Calls",
+    "Payment Delay",
+    "Total Spend",
+    "Last Interaction"
+  ],
+  "features_categorical": [
+    "Gender",
+    "Subscription Type",
+    "Contract Length"
+  ]
+}
